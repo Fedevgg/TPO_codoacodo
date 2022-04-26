@@ -54,7 +54,6 @@ a:visited{
 @keyframes slide {
     from {left: 400px}
     to {left: 0px;}
-
 }
 
 
@@ -74,6 +73,14 @@ a:visited{
     background: darkblue;
     text-align: center;
 }
+
+/* .snIcon :hover{
+    animation-duration: 1s;
+}
+
+@keyframes rotate{
+    position: 0°
+} */
 
 iframe{
     height: 400px;
@@ -129,6 +136,7 @@ iframe{
         grid-column-start: 1;
         justify-content: start;
         max-height: 150px;
+        animation: none;
     }
     .intro{
         grid-row: 3;
@@ -174,6 +182,7 @@ iframe{
         grid-column-start: 1;
         justify-content: start;
         max-height: 150px;
+        animation: none;
     }
     .intro{
         grid-row: 3;
